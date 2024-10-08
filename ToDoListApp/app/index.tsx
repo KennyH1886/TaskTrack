@@ -24,7 +24,7 @@ export default function ToDoList() {
     setTasks(tasks.filter((task) => task.key !== taskKey));
   };
 
-  // Determine which styles to use based on the current theme
+  // Determine which styles to use based on the current theme.
   const styles = theme === 'dark' ? darkStyles : lightStyles;
 
   return (
